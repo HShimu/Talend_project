@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_hV0_UHihEequHcuUHjsm5Q" name="test-excel" dataPackage="_hV0_UXihEequHcuUHjsm5Q" Server="Localhost 127.0.0.1" FilePath="C:/Users/OPST-0036/Desktop/Book1.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" SheetName="Sheet1" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Sheet1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_hV0_UXihEequHcuUHjsm5Q" name="default" dataManager="_hV0_UHihEequHcuUHjsm5Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_hV0_UnihEequHcuUHjsm5Q" id="_IIudsHihEequHcuUHjsm5Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hV1mYHihEequHcuUHjsm5Q" label="A" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hV1mYXihEequHcuUHjsm5Q" label="B" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hV1mYnihEequHcuUHjsm5Q" label="C" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
